@@ -16,7 +16,7 @@ This web app is an online photo frame that allows users to load photos from a se
 ## Set up
 Before you can run this sample, you must set up a Google Developers project and configure authentication credentials. Follow the
 [get started guide](https://developers.google.com/photos/library/guides/get-started) to complete these steps:
-1. Set up a Google Developers Project and enable the **Google Photos Library API**.
+1. Set up a Google Developers Project and enable the **Google Photos Library API**. Also enable the Google+ API.
 1. In your project, set up new OAuth credentials for a web server application. Set the authorized JavaScript origin to `http://127.0.0.1` and the authorized redirect URL to `http://127.0.0.1:8080/auth/google/callback` if you are running the app locally.
 1. The console will display your authentication credentials. Add the `Client ID` and `Client secret` to the file `config.js`, replacing the placeholder values:
 ```
